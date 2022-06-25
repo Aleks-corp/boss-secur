@@ -32,6 +32,7 @@ body {
   letter-spacing: 0.05;
   color: #000000;
   text-align: center;
+  transition: 250ms ease-in-out;
 }
 .link:hover,
 .link:focus {
