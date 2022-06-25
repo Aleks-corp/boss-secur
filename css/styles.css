@@ -22,7 +22,7 @@ body {
   width: 100vw;
 }
 .link {
-  width: 51%;
+  min-width: 51%;
   display: block;
   text-decoration: none;
   font-family: "Courier New", Courier, monospace;
@@ -33,6 +33,9 @@ body {
   color: #000000;
   text-align: center;
   transition: 250ms ease-in-out;
+}
+.main-link {
+  font-size: 24px;
 }
 .link:hover,
 .link:focus {
